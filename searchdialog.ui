@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchDialog</class>
+ <widget class="QDialog" name="SearchDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ricerca</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>767</width>
+        <height>445</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QFormLayout" name="formLayout">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::ExpandingFieldsGrow</enum>
+              </property>
+              <property name="labelAlignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+              <property name="formAlignment">
+               <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+              </property>
+              <item row="2" column="0">
+               <widget class="QLabel" name="Comune_search_label">
+                <property name="text">
+                 <string>Comune</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="Comune_search_line"/>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="Provincia_search_label">
+                <property name="text">
+                 <string>Provincia</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLineEdit" name="Provincia_search_line"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="Cognome_search_line"/>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="Cognome_search_label">
+                <property name="text">
+                 <string>Cognome</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="all_licenses_radio">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Visualizza tutti i brevetti</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="Brevetto_search_box">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <item>
+               <property name="text">
+                <string>Bagnino di Salvataggio per Piscine</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Bagnino di Salvataggio per Piscine e Acque Libere</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Istruttore di Nuoto</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Istruttore di Nuoto per Disabili</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Istruttore di Acquafitness e Hydrobike</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BLSD</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Istruttore di Arti Marinaresche</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Docente per Istruttori di Nuoto</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Scienze Motorie</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QFormLayout" name="formLayout_2">
+              <property name="fieldGrowthPolicy">
+               <enum>QFormLayout::ExpandingFieldsGrow</enum>
+              </property>
+              <property name="labelAlignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+              <property name="formAlignment">
+               <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+              </property>
+              <item row="2" column="0">
+               <widget class="QLabel" name="Cap_search_label">
+                <property name="text">
+                 <string>CAP</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="Cap_search_line"/>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="Professione_search_label">
+                <property name="text">
+                 <string>Professione</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLineEdit" name="Professione_search_line"/>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="Nome_search_line"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="Nome_search_label">
+                <property name="text">
+                 <string>Nome</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <item>
+                <widget class="QRadioButton" name="show_all_radio">
+                 <property name="text">
+                  <string>Visualizza brevetti validi e scaduti</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="is_expired_radio">
+                 <property name="text">
+                  <string>Visualizza solo brevetti scaduti</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="is_valid_radio">
+                 <property name="text">
+                  <string>Visualizza solo brevetti in corso di validità</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>Visualizza</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QPushButton" name="Visualizza_button">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="text">
+                <string>Visualizza</string>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="Visualizza_in_scadenza_button">
+               <property name="text">
+                <string>Visualizza brevetti in scadenza</string>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+               <property name="flat">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="Cancella_button_2">
+               <property name="text">
+                <string>Cancella</string>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="Chiudi_button">
+               <property name="text">
+                <string>Chiudi</string>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
